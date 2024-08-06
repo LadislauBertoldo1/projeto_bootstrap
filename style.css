@@ -1,0 +1,33 @@
+header {
+
+    background-color: rgba(235 235 235 / 30%);
+}
+
+.slides {
+    margin-bottom: 15px;
+}
+
+
+main {
+
+    .container {
+        padding-bottom: 40px;
+        padding-top: 60px;
+    }
+
+    .col {
+        display: flex;
+        max-width: 300px;
+    }
+
+    .col .card img {
+            width: 100%;
+            height: 200px;
+    }
+
+    .col .card .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
